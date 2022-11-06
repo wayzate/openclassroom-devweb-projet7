@@ -1,7 +1,7 @@
 import banner from './banner.png'
-import products from './products.json'
+import logements from './logements.json'
 
 export {
   banner,
-  products,
+  logements,
 }

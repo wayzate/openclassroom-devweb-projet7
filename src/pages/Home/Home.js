@@ -5,24 +5,24 @@ import {
 
 import {
   banner,
-  products,
+  logements,
 } from '../../assets'
 import {
-  Herobanner,
-  Thumbnails,
+  BigBanner,
+  AppartmentCard,
 } from './Home.components'
 
 const Home = () => (
   <div className="home">
     <div className="home__banner">
-      <Herobanner image={banner} title="Chez vous, partout et ailleurs" />
+      <BigBanner image={banner} title="Chez vous, partout et ailleurs" />
     </div>
     {" "}
-    <section className="home__products">
-      {products.map((product) => (
-        <article key={product.id}>
-          <Link to={`/products/${product.id}`}>
-            <Thumbnails image={product.cover} title={product.title} />
+    <section className="home__logements">
+      {logements.map(({ id, cover, title }) => (
+        <article key={id}>
+          <Link to={`/logements/${id}`}>
+            <AppartmentCard image={cover} title={title} />
           </Link>
         </article>
       ))}

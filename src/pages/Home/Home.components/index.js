@@ -1,7 +1,7 @@
-import Herobanner from './Herobanner'
-import Thumbnails from './Thumbnails'
+import AppartmentCard from './AppartmentCard'
+import BigBanner from './BigBanner'
 
 export {
-  Herobanner,
-  Thumbnails,
+  AppartmentCard,
+  BigBanner,
 }
