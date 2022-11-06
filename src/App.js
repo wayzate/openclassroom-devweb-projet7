@@ -5,22 +5,22 @@ import {
   Route,
 } from "react-router-dom"
 
+import "./main.css"
+
 import {
   Home,
 } from "./pages"
 
-const App = () => {
-  return (
-    <div>
-      <div className="App">
-        <Router>
-          <Routes>
-            <Route index element={<Home />} />
-          </Routes>
-        </Router>
-      </div>
+const App = () => (
+  <div>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route index element={<Home />} />
+        </Routes>
+      </Router>
     </div>
-  )
-}
+  </div>
+)
 
 export default App
