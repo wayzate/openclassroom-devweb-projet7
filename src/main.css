@@ -283,17 +283,17 @@ code {
   }
 }
 
-.server {
+.avatar {
   display: flex;
   justify-content: flex-end;
 }
-.server__name {
+.avatar__name {
   font-size: 12px;
   font-weight: 500;
   margin-right: 10px;
 }
 @media only screen and (min-width: 768px) {
-  .server__name {
+  .avatar__name {
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -301,27 +301,27 @@ code {
   }
 }
 @media only screen and (min-width: 992px) {
-  .server__name {
+  .avatar__name {
     font-size: 18px;
   }
 }
-.server__name p {
+.avatar__name p {
   margin: 0;
   text-align: end;
 }
-.server__picture {
+.avatar__picture {
   border-radius: 50%;
   height: 32px;
   width: 32px;
 }
 @media only screen and (min-width: 768px) {
-  .server__picture {
+  .avatar__picture {
     height: 48px;
     width: 48px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .server__picture {
+  .avatar__picture {
     height: 64px;
     width: 64px;
   }
@@ -591,7 +591,6 @@ code {
   justify-content: flex-end;
   text-decoration: none;
   font-weight: 500;
-  text-transform: uppercase;
 }
 @media only screen and (min-width: 350px) {
   .navbar__links--inactive {
@@ -789,85 +788,85 @@ code {
   }
 }
 
-.singleproduct {
+.logement {
   margin: 0 5%;
   color: #ff6060;
 }
-.singleproduct__content {
+.logement__content {
   margin-top: 20px;
 }
 @media only screen and (min-width: 992px) {
-  .singleproduct__content {
+  .logement__content {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
   }
 }
-.singleproduct__title {
+.logement__title {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
 }
 @media only screen and (min-width: 350px) {
-  .singleproduct__title {
+  .logement__title {
     font-size: 24px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .singleproduct__title {
+  .logement__title {
     font-size: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .singleproduct__title {
+  .logement__title {
     font-size: 36px;
   }
 }
-.singleproduct__location {
+.logement__location {
   font-size: 14px;
   font-weight: 500;
 }
 @media only screen and (min-width: 350px) {
-  .singleproduct__location {
+  .logement__location {
     font-size: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .singleproduct__location {
+  .logement__location {
     margin-top: 0;
   }
 }
 @media only screen and (min-width: 992px) {
-  .singleproduct__location {
+  .logement__location {
     font-size: 18px;
   }
 }
-.singleproduct__tags {
+.logement__tags {
   display: flex;
   flex-wrap: wrap;
 }
-.singleproduct__rating-and-host {
+.logement__rating-and-host {
   margin-top: 5px;
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
 @media only screen and (min-width: 992px) {
-  .singleproduct__rating-and-host {
+  .logement__rating-and-host {
     flex-direction: column-reverse;
     justify-content: space-around;
     margin: 0;
   }
 }
 @media only screen and (min-width: 768px) {
-  .singleproduct__dropdowns {
+  .logement__dropdowns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .singleproduct__dropdowns {
+  .logement__dropdowns {
     column-gap: 80px;
   }
 }
